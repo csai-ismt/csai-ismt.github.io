@@ -1,0 +1,29 @@
+<div id="{{ id }}" class="modal">
+  <div class="modal-background" onClick="close_modal()"></div>
+  <div class="modal-content">
+    <div class="close-modal" onClick="close_modal()">
+      <p>&times;</p>
+    </div>
+    <div class="header">
+      <p class="title">{{ member.name }}</p>
+      <!-- <p class="date">{{ member.date }}</p> -->
+      <p class="date">{{ member.title }}</p>
+      <!-- <p class="summary">{{ member.summary }}</p> -->
+    </div>
+    <div class="content">
+      {% if member.image %}
+        <img src="{{ member.image.path | prepend: '/assets/profile-pictures/' | relative_url }}" alt="{{ member.image.alt }}">
+      {% endif%}
+      <div class="description">{{ member.bio }}</div>
+      {% for content in member.contents %}
+      <div class="sub-content">
+        <div class="title">{{ content.title }}</div>
+        {% if content.image %}
+          <img src="{{ content.image.path | prepend: '/assets/membe/' | relative_url }}" alt="{{ content.image.alt }}">
+        {% endif %}
+        <div class="description">{{ content.description }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

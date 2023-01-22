@@ -1,0 +1,8 @@
+{% if site.data.profile.news %}
+  <p class="title">{{ site.theme_settings.news_title }}</p>
+  <ul class="awards-list">
+    {% for news in site.data.profile.news %}
+    <li class="award">{{ news }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}

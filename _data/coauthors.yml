@@ -1,0 +1,55 @@
+"Shterionov":
+  - firstname: ["Dimitar", "D."]
+    image: 
+      path: "portfolio.png" # path: assets/project/
+      alt: "The SignON Project"
+    skills:
+      - NLP 
+      - MT
+      - QE
+    description: My name is Dimi, here is what's interesting about me
+    url: https://scholar.google.co.uk/citations?user=708G4DcAAAAJ
+"Vanmassenhove":
+  - firstname: ["Eva", "E."]
+    image: 
+      path: "portfolio.png" # path: assets/project/
+      alt: "The SignON Project"
+    skills:
+      - NLP 
+      - MT
+      - QE
+    description: My name is Eva, here is what's interesting about me
+    url: https://scholar.google.co.uk/citations?user=ckbrgYAAAAAJ
+"De Sisto":
+  - firstname: ["Mirella", "M."]
+    image: 
+      path: "portfolio.png" # path: assets/project/
+      alt: "The SignON Project"
+    skills:
+      - NLP 
+      - MT
+      - QE
+    description: My name is Mirella, here is what's interesting about me
+    url: https://scholar.google.co.uk/citations?user=3RHxNpsAAAAJ
+"Blain":
+  - firstname: ["Frederic", "Frédéric", "F."]
+    image: 
+      path: "portfolio.png" # path: assets/project/
+      alt: "The SignON Project"
+    skills:
+      - NLP 
+      - MT
+      - QE
+    description: My name is Fred, here is what's interesting about me
+    url: https://scholar.google.co.uk/citations?user=sgBANaQAAAAJ
+"Sharami":
+  - firstname: ["Javad Pourmostafa Roshan", "J."]
+    image: 
+      path: "portfolio.png" # path: assets/project/
+      alt: "The SignON Project"
+    skills:
+      - NLP 
+      - MT
+      - QE
+    description: My name is Javad, here is what's interesting about me
+    url: https://scholar.google.co.uk/citations?user=xqccd64AAAAJ

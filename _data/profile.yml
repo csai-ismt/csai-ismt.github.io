@@ -1,0 +1,41 @@
+image: assets/img/tiu.png
+username: CSAI ISMT
+fullname: ISMT - Inclusive & Sustainable MT
+description: Research Group on Machine Translation \| Tilburg University, NL 
+webpage: https://csai-ismt.github.io
+# experience: # Remove for hiding the experience section
+#   - start: 2017-05-03
+#     end: 2018-05-06
+#     experience : company name, title
+interests: # Remove for hiding the interests section
+  - Machine Translation 
+  - Sign Language Translation
+  - Gender bias 
+  - Quality Estimation
+
+# skills: # Remove for hiding the skills section
+#   - skill: HTML5 & CSS
+#     value: 85  # Percent value
+#   - skill: Machine Translation 
+#     value: 92  # Percent value
+social:
+  email:  # Full email address, e.g. "sample@google.com"
+  orcid: 
+  scholar: 
+  publons: 
+  research_gate: 
+  dblp:  # Full URL
+  semantic_scholar:  # Full URL
+  linkedin:  # Full URL 
+  github: csai-ismt
+  gitlab: 
+  bitbucket: 
+  google_plus:
+  twitter: MT_TilburgUni
+  youtube:
+  facebook:
+  instagram:
+awards: # Remove for hiding the awards section
+  - "This is an award I got"
+news: # Remove for hiding the awards section
+  - "This is a news I've got"

@@ -1,0 +1,82 @@
+---
+layout: page
+---
+<div id="people">
+  <section class="bg"></section>
+  <h1 class="title">{{ page.title }}</h1>
+</div>
+
+{% assign active_members = "" | split: ',' %}
+{% assign alumni = "" | split: ',' %}
+{% for _ in site.data.team %}
+{% if _.member.alumni %}
+{% assign alumni = alumni | push: _.member %}
+{% else %}
+{% assign active_members = active_members | push: _.member %}
+{% endif %}
+{% endfor %}
+
+<section id="project">
+  <div class="project-wrap">
+    <div class="card-container">
+      {% for member in active_members %}
+      {% assign id = id | plus: 1 %}
+      <div class="card-wrapper">
+        <div class="card">
+          {% if member.image %}
+          <div class="img-wrap">
+            <img src="{{ member.image.path | prepend: '/assets/profile-pictures/' | relative_url }}" alt="{{ member.image.alt }}">
+          </div>
+          {% endif %}
+          <div class="text-wrap {% if member.image %}{% endif %}">
+            <div class="title-wrap">
+              <!-- <p class="date">{{ member.date }}</p> -->
+              <div class="title">{{ member.name }}</div>
+            </div>
+            <div class="meta">
+              <span>{{ member.title }}</span>
+            </div>
+            <div class="description">{{ member.bio }}</div>
+            {% if member.skills %}
+            <div class="meta">
+              {% for skill in member.skills %}
+              <span>{{ skill }}</span>
+              &middot;
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+          <div class="icons">
+            {% if member.website %}
+            {% assign url = member.website %}
+            <a href="{{ url }}"><i class="far fa-eye"></i></a>
+            {% endif %}
+            <!-- {% if member.modal %} -->
+            <a title="{{ id }}" onClick="open_modal(this.title)" class="modal-btn"><i class="fas fa-plus"></i></a>
+            <!-- {% endif %} -->
+          </div>
+        </div>
+      </div>
+      <!-- Modal Box -->
+      {% include team-modal.html %}
+      <!-- Modal Box -->
+      {% endfor %}
+    </div>
+  </div>
+  <div class="bg"></div>
+</section>
+
+{% if alumni.size != 0 %}
+<section id="recentpubs">
+  <div class="recentpubs-wrap">
+    <p class="title">Alumnus</p>
+    {% for member in alumni %}
+    <a href="{{ member.website }}" target=_blank>{{ member.name }}</a> ({{ member.date }})
+    <br />
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<!-- modal -->
+<script type="text/javascript" src="{{ '/assets/js/modal.js' | relative_url }}"></script>

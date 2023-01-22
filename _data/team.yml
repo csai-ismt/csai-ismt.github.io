@@ -1,0 +1,79 @@
+- member :
+    name: Dr Dimitar Shterionov 
+    title: Assistant Professor in AI
+    email: d.shterionov@tilburguniversity.edu
+    alumni: False 
+    modal: True
+    website: https://scholar.google.co.uk/citations?user=708G4DcAAAAJ 
+    image:
+      path: "dimitar.jpg" # path: assets/project/
+      alt: "Photo Dimitar"
+    date: 08/2021 &ndash; present 
+    skills:
+      - NLP
+      - Machine Translation
+      - Quality Estimation
+    bio: My name is Dimi and this what to know about me My name is Dimi and this what to know about me My name is Dimi and this what to know about me My name is Dimi and this what to know about me My name is Dimi and this what to know about me My name is Dimi and this what to know about me My name is Dimi and this what to know about me 
+
+- member :
+    name: Dr Eva Vanmassenhove
+    title: Assistant Professor in AI
+    alumni: False 
+    modal: True
+    website: https://scholar.google.co.uk/citations?user=ckbrgYAAAAAJ 
+    image:
+      path: "eva.jpg" # path: assets/project/
+      alt: "Photo Eva"
+    date: 08/2021 &ndash; present 
+    skills:
+      - NLP
+      - Computational Linguistics
+      - Gender Bias
+    bio: My name is Eva and this what to know about me 
+
+- member :
+    name: Dr Mirella De Sisto
+    title: Assistant Professor in AI
+    alumni: False 
+    modal: True
+    website: https://scholar.google.co.uk/citations?user=3RHxNpsAAAAJ 
+    image:
+      path: "mirella.jpg" # path: assets/project/
+      alt: "Photo Mirella"
+    date: 11/2022 &ndash; present 
+    skills:
+      - NLP
+      - Computational Linguistics
+    bio: My name is Mirella and this what to know about me 
+
+- member :
+    name: Dr Fred Blain
+    title: Assistant Professor in AI
+    alumni: False 
+    modal: True
+    website: https://scholar.google.co.uk/citations?user=sgBANaQAAAAJ 
+    image:
+      path: "fred.jpg" # path: assets/project/
+      alt: "Photo Fred"
+    date: 12/2022 &ndash; present 
+    skills:
+      - NLP
+      - Machine Translation
+      - Quality Estimation
+    bio: My name is Fred and this what to know about me 
+
+- member :
+    name: Javad Pourmostafa Roshan Sharami
+    title: PhD Candidate 
+    alumni: False 
+    modal: True
+    website: https://scholar.google.co.uk/citations?user=xqccd64AAAAJ 
+    image:
+      path: "javad.jpg" # path: assets/project/
+      alt: "Photo Javad"
+    date: 09/2021 &ndash; present 
+    skills:
+      - NLP
+      - Machine Translation
+      - Quality Estimation
+    bio: My name is Javad and this what to know about me 

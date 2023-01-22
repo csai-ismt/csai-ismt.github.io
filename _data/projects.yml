@@ -1,0 +1,62 @@
+- project :
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: https://signon-project.eu/ # full URL 
+    image:
+      path: "portfolio.png" # path: assets/project/
+      alt: "The SignON Project"
+    date: 01/2021 &ndash; Developing
+    title: SignON Project 
+    summary: Academic portfolio jekyll theme.
+    description: A user-centric and community-driven project that aims to facilitate the exchange of information among Deaf, hard of hearing and hearing individuals across Europe, targeting the Irish, British, Dutch, Flemish and Spanish sign as well as the English, Irish, Dutch and Spanish spoken languages. 
+    contents:
+        - title: 1. Portfolio Page
+          image:
+            path: portfolio.png
+            alt: "A screenshot of the portfolio page"
+          description: <li>Concise portfolio page</li>
+            <li>Recent publications</li>
+            <li>Projects</li>
+        - title: 2. Optional Blog Functionality
+          image:
+            path: home.png
+            alt: "A screenshot of the blog page"
+          description: <li>Responsive Layout</li>
+            <li>Tags</li> 
+            <li>Pagination</li>
+        - title: 3. Tags Page
+          image:
+            path: tags.png
+            alt: "A screenshot of the tags page"
+          description: <li>Responsive Layout</li> 
+            <li>Tags</li> 
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: https://aclanthology.org/2022.eamt-1.43/
+    image: # path: assets/project/
+    date: 02/2022 &ndash; 08/2022 
+    title: Machine Translation Quality Assessment 
+    summary: 
+    description: Evaluation and monitoring of MT output quality has become one of the essential aspects of language technology management in LSPs' workflows.
+    contents:
+      - title: Motivation 
+        description: With the increase in MT quality over the last years, it has now become a common practice to integrate MT in the workflow of language service providers (LSPs) and other actors in the translation industry. With MT having a direct impact on the translation workflow, it is important not only to use high-quality MT systems, but also to understand the quality dimension so that the humans involved in the translation workflow can make informed decisions. The evaluation and monitoring of MT output quality has become one of the essential aspects of language technology management in LSPs' workflows. 
+      - title: Collaboration with Orbital14
+        description: This 6-month project was a collaboration between Tilburg University and <a href="https://www.aglatech14.com/en/orbital14-2/" target=_blank>Orbital14</a>, an Aglatech14 company with the overall objective of developing a machine translation quality assessment (MTQA) tool that simplifies the quality assessment of MT engines, combining quality evaluation and quality estimation on document and sentence level and is tailored towards language service providers.
+      - title: More about it?
+        description: Take a look at our paper <a href="https://aclanthology.org/2022.eamt-1.43/" target=_blank>https://aclanthology.org/2022.eamt-1.43/</a>
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: 
+    image: # path: assets/project/
+    date: 
+    title: Gender Augmented Data for NLP 
+    summary: 
+    description: 
+    contents:
+      - title: 
+        description: 
