@@ -42,8 +42,8 @@
       - QE
     description: My name is Fred, here is what's interesting about me
     url: https://scholar.google.co.uk/citations?user=sgBANaQAAAAJ
-"Sharami":
-  - firstname: ["Javad Pourmostafa Roshan", "J."]
+"Pourmostafa Roshan Sharami":
+  - firstname: ["Javad", "J."]
     image: 
       path: "portfolio.png" # path: assets/project/
       alt: "The SignON Project"
@@ -51,5 +51,5 @@
       - NLP 
       - MT
       - QE
-    description: My name is Javad, here is what's interesting about me
+    description: Hi! I'm Javad Pourmostafa, Ph.D. candidate and lecturer at Tilburg University's CSAI department.
     url: https://scholar.google.co.uk/citations?user=xqccd64AAAAJ
