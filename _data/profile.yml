@@ -12,6 +12,7 @@ interests: # Remove for hiding the interests section
   - Sign Language Translation
   - Gender bias 
   - Quality Estimation
+  - Domain Adaptation in MT
 
 # skills: # Remove for hiding the skills section
 #   - skill: HTML5 & CSS
