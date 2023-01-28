@@ -14,3 +14,8 @@
     event: TAISIG Talk 17
     date: 10/2022
     hub: https://youtu.be/-khfoxItWis
+- presentation:
+    title: Creating parallel in-domain data for Neural Machine Translation
+    event: TAISIG Talks 13
+    date: 04/2022
+    hub: https://youtu.be/8GDQ124iAao
