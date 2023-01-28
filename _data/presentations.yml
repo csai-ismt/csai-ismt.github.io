@@ -1,11 +1,16 @@
+# - presentation:
+#     title: A nice presentation
+#     event: Fancy conference
+#     date: 05/2022
+#     comment: This is some comment text that can do _Markdown_
+#     slides: https://www.google.com # potential link to slides
+#     hub: example-hub # potential hub page to link to
+# - presentation:
+#     title: A second presentation
+#     event: Another conference
+#     date: 03/2022
 - presentation:
-    title: A nice presentation
-    event: Fancy conference
-    date: 05/2022
-    comment: This is some comment text that can do _Markdown_
-    slides: https://www.google.com # potential link to slides
-    hub: example-hub # potential hub page to link to
-- presentation:
-    title: A second presentation
-    event: Another conference
-    date: 03/2022
+    title: MT's past and current developments 
+    event: TAISIG Talk 17
+    date: 10/2022
+    slides: https://youtu.be/-khfoxItWis
