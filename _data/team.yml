@@ -26,10 +26,10 @@
       alt: "Photo Eva"
     date: 08/2021 &ndash; present 
     skills:
-      - NLP
+      - Machine Translation
       - Computational Linguistics
       - Gender Bias
-    bio: My name is Eva and this what to know about me 
+    bio: Hi! I'm Eva, an Assistant Professor at Tilburg University's Department of Cognitive Science and Artificial Intelligence, where I research Neural Machine Translation (NMT) with a specific focus on preserving linguistic diversity and avoiding gender bias. My journey in this field began at Dublin City University in Ireland, where I developed a passion for integrating linguistic features into NMT during my PhD. Feel free to drop me a message if you are interested in any of these topics and would like to collaborate! 
 
 - member :
     name: Dr Mirella De Sisto
