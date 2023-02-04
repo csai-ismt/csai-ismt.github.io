@@ -3,33 +3,19 @@
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url: https://signon-project.eu/ # full URL 
     image:
-      path: "portfolio.png" # path: assets/project/
+      path: "signon-logo.jpg" # path: assets/project/
       alt: "The SignON Project"
     date: 01/2021 &ndash; Developing
-    title: SignON Project 
-    summary: Academic portfolio jekyll theme.
-    description: A user-centric and community-driven project that aims to facilitate the exchange of information among Deaf, hard of hearing and hearing individuals across Europe, targeting the Irish, British, Dutch, Flemish and Spanish sign as well as the English, Irish, Dutch and Spanish spoken languages. 
+    title: SignON Project
+    summary: Sign Language Translation Mobile Application and Open Communications Framework
+    description: A user-centric and community-driven project that aims to facilitate the exchange of information among Deaf, hard of hearing and hearing individuals across Europe, targeting the Irish, British, Dutch, Flemish and Spanish sign as well as the English, Irish, Dutch and Spanish spoken languages.
     contents:
-        - title: 1. Portfolio Page
-          image:
-            path: portfolio.png
-            alt: "A screenshot of the portfolio page"
-          description: <li>Concise portfolio page</li>
-            <li>Recent publications</li>
-            <li>Projects</li>
-        - title: 2. Optional Blog Functionality
-          image:
-            path: home.png
-            alt: "A screenshot of the blog page"
-          description: <li>Responsive Layout</li>
-            <li>Tags</li> 
-            <li>Pagination</li>
-        - title: 3. Tags Page
-          image:
-            path: tags.png
-            alt: "A screenshot of the tags page"
-          description: <li>Responsive Layout</li> 
-            <li>Tags</li> 
+        - title: Project objectives
+          description: SignON aims to reduce the communication gap between the deaf, hard of hearing and hearing communities. We bring together the experience and know-how of deaf and hard of hearing communities with multidisciplinary academic and industry expertise. A team of experts from different backgrounds will develop the SignON communication service which will focus on the translation between sign and oral languages.
+        - title: Consortium
+          description: The SignON consortium brings together a wide-ranging and complementary set of skills and expertise. Our consortium includes members who represent and/or work closely with deaf communities (EUD, VGTC, DCU, KU Leuven and TCD); sign linguistics (KU Leuven, TCD, DCU, TU Dublin), exploitation, innovation and design (MAC, VRT and FINCONS); natural language processing, infrastructure and policies (TU Dublin, NTU, UPF, INT and KU Leuven); machine translation and quality estimation (UPV/EHU, KU Leuven, TiU); sign language recognition (UGent and UCD); 3D animation and avatar synthesis (TU Dublin and UPF/GTI group); automated speech recognition (RU).
+        - title: Project's website
+          description: For more information, visit <a href="https://signon-project.eu/">signon-project.eu</a>
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
