@@ -37,7 +37,7 @@ social:
   facebook:
   instagram:
 awards: # Remove for hiding the awards section
-  - "This is an award I got"
+  - "DCU Commercialisation Award (November 2022) for a collaborative project with Microsoft (Ireland) and Dublin City University (DCU)"
 news: # Remove for hiding the news section
   - "<a href=\"https://sites.google.com/tilburguniversity.edu/at4ssl2023/call-for-papers\" target=\"_blank\">The CFP for AT4SSL is out!</a>" 
   - "<a href=\"https://sites.google.com/tilburguniversity.edu/at4ssl2023/\" target=\"_blank\">The 2nd edition of AT4SSL, our workshop on Automatic Translation for Sign and Spoken Languages, will be co-located with EAMT'23!</a>" 
