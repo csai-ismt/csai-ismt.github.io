@@ -42,8 +42,8 @@
       - QE
     description: My name is Fred, here is what's interesting about me
     url: https://scholar.google.co.uk/citations?user=sgBANaQAAAAJ
-"Pourmostafa Roshan Sharami":
-  - firstname: ["Javad", "J."]
+"Sharami":
+  - firstname: ["Javad Pourmostafa Roshan", "J."]
     image: 
       path: "portfolio.png" # path: assets/project/
       alt: "The SignON Project"
