@@ -21,7 +21,9 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url: https://aclanthology.org/2022.eamt-1.43/
-    image: # path: assets/project/
+    image: 
+      path: "assets/Aglatech.png" # path: assets/project/
+      alt: "Machine Translation Quality Assessment"
     date: 02/2022 &ndash; 08/2022 
     title: Machine Translation Quality Assessment 
     summary: 
