@@ -22,7 +22,7 @@
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url: https://aclanthology.org/2022.eamt-1.43/
     image: 
-      path: "assets/Aglatech.png" # path: assets/project/
+      path: "assets/img/Aglatech.png" # path: assets/project/
       alt: "Machine Translation Quality Assessment"
     date: 02/2022 &ndash; 08/2022 
     title: Machine Translation Quality Assessment 
