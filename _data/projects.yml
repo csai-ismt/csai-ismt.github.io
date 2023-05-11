@@ -52,11 +52,8 @@
  - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: https://live.european-language-grid.eu/catalogue/corpus/21566
+    url: https://live.european-language-grid.eu/catalogue/corpus/21566/
     date: 01/2023 &ndash; 03/2023
     title: NGT-Dutch Hotel Review Corpus (NGT-HoReCo)
     decription: A parallel corpus of hotel reviews in written English, written Dutch and videos in Sign Language of the Netherlands (NGT).
-    contents: 
-        -title: NGT-HoReCo
-        description: A multimodal parallel corpus of 297 hotel reviews in written English translated into written Dutch and into NGT videos.
 
