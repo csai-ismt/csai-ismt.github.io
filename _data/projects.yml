@@ -55,7 +55,7 @@
     url: https://live.european-language-grid.eu/catalogue/corpus/21566/
     image: # path: assets/project/
     date: 01/2023 &ndash; 03/2023
-    title: NGT-Dutch Hotel Review Corpus (NGT-HoReCo)
+    title: NGT-Dutch Hotel Review Corpus (NGT&ndash;HoReCo)
     decription: A parallel corpus of hotel reviews in written English, written Dutch and videos in Sign Language of the Netherlands (NGT).
     contents:
       - title: 
