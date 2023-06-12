@@ -13,7 +13,7 @@
       - NLP
       - Machine Translation
       - Quality Estimation
-    bio: Hi, my name is Dimitar Shterionov. I am an assistant professor at the Department of Cognitive Science and Artificial Intelligence, Tilburg University (TiU). My academic interests are in the field of machine translation, sign language machine translation, and optimisation, quality, performance, fairness and low-resource MT. I am the scientific and technical lead of the EU-funded project on translation of sign and spoken languages: SignON (https://signon-project.eu/)
+    bio: "Hi, my name is Dimitar Shterionov. I am an assistant professor at the Department of Cognitive Science and Artificial Intelligence, Tilburg University (TiU). My academic interests are in the field of machine translation, sign language machine translation, and optimisation, quality, performance, fairness and low-resource MT. I am the scientific and technical lead of the EU-funded project on translation of sign and spoken languages: SignON (https://signon-project.eu/)"
 
 - member :
     name: Dr Eva Vanmassenhove
@@ -29,7 +29,7 @@
       - Machine Translation
       - Computational Linguistics
       - Gender Bias
-    bio: Hi! I'm Eva, an Assistant Professor at Tilburg University's Department of Cognitive Science and Artificial Intelligence, where I research Neural Machine Translation (NMT) with a specific focus on preserving linguistic diversity and avoiding gender bias. My journey in this field began at Dublin City University in Ireland, where I developed a passion for integrating linguistic features into NMT during my PhD. Feel free to drop me a message if you are interested in any of these topics and would like to collaborate! 
+    bio: "Hi! I'm Eva, an Assistant Professor at Tilburg University's Department of Cognitive Science and Artificial Intelligence, where I research Neural Machine Translation (NMT) with a specific focus on preserving linguistic diversity and avoiding gender bias. My journey in this field began at Dublin City University in Ireland, where I developed a passion for integrating linguistic features into NMT during my PhD. Feel free to drop me a message if you are interested in any of these topics and would like to collaborate!"
 
 - member :
     name: Dr Mirella De Sisto
@@ -44,7 +44,7 @@
     skills:
       - NLP
       - Computational Linguistics
-    bio: Hi! I’m Mirella, an Assistant Professor at Tilburg University’s Department of Cognitive Science and Artificial Intelligence and a member of the SignON project. My research focuses on Sign Language Machine Translation; in particular, I research how Neural Machine Translation (NMT) can be extended to sign languages by taking into account their linguistic properties. My background is in linguistics (phonology) and computational literary studies. In general, I like to find connections between different disciplines and topics. If you would like to collaborate (or just discuss something), feel free to get in touch with me.
+    bio: "Hi! I’m Mirella, an Assistant Professor at Tilburg University’s Department of Cognitive Science and Artificial Intelligence and a member of the SignON project. My research focuses on Sign Language Machine Translation; in particular, I research how Neural Machine Translation (NMT) can be extended to sign languages by taking into account their linguistic properties. My background is in linguistics (phonology) and computational literary studies. In general, I like to find connections between different disciplines and topics. If you would like to collaborate (or just discuss something), feel free to get in touch with me."
 
 - member :
     name: Dr Fred Blain
@@ -60,7 +60,7 @@
       - NLP
       - Machine Translation
       - Quality Estimation
-    bio: Hallo! I'm Fred, an Assistant Professor in AI at Tilburg University's Department of Cognitive Science and Artificial Intelligence, where I research Neural Machine Translation (NMT) with a specific focus on Quality Estimation. I am also interested in the cognitive workflow induced in human post-editing of Machine Translation (MT) and human interpreting. I worked on incremental adapation of Statistical MT (SMT) during my PhD and was involved in several EU funded projects after that (namely <a href="https://www.matecat.com/" target=_blank>MateCAT</a>, <a href="https://qt21.eu" target=_blank>QT21</a>, <a href="https://browser.mt" target=_blank>BrowserMT</a> and others). I joined TiU after being a postdoctoral researcher at The University of Sheffield and a Senior Lecturer at The University of Wolverhampton, in the UK. Get in touch if you are interested in collaborating or are doing a PhD on topics such as Neural MT, Quality Estimation, Post-Editing, as well as exploring Cognitive Science and Human-Computer Interaction for Human Interpreting. 
+    bio: "Hallo! I'm Fred, an Assistant Professor in AI at Tilburg University's Department of Cognitive Science and Artificial Intelligence, where I research Neural Machine Translation (NMT) with a specific focus on Quality Estimation. I am also interested in the cognitive workflow induced in human post-editing of Machine Translation (MT) and human interpreting. I worked on incremental adapation of Statistical MT (SMT) during my PhD and was involved in several EU funded projects after that (namely <a href='https://www.matecat.com/' target=_blank>MateCAT</a>, <a href='https://qt21.eu' target=_blank>QT21</a>, <a href='https://browser.mt' target=_blank>BrowserMT</a> and others). I joined TiU after being a postdoctoral researcher at The University of Sheffield and a Senior Lecturer at The University of Wolverhampton, in the UK. Get in touch if you are interested in collaborating or are doing a PhD on topics such as Neural MT, Quality Estimation, Post-Editing, as well as exploring Cognitive Science and Human-Computer Interaction for Human Interpreting."
 
 - member :
     name: Javad Pourmostafa Roshan Sharami
@@ -76,4 +76,4 @@
       - NLP
       - Machine Translation
       - Quality Estimation
-    bio: Hi! I'm Javad Pourmostafa, Ph.D. candidate and lecturer at Tilburg University's CSAI department.
+    bio: "Hi! I'm Javad Pourmostafa, Ph.D. candidate and lecturer at Tilburg University's CSAI department."
