@@ -56,8 +56,9 @@
     image: # path: assets/project/
     date: 01/2023 &ndash; 03/2023
     title: NGT-Dutch Hotel Review Corpus (NGT-HoReCo)
+    summary:
     decription: A parallel corpus of hotel reviews in written English, written Dutch and videos in Sign Language of the Netherlands (NGT).
     contents:
       - title: 
-        description: A parallel corpus of hotel reviews in written English, written Dutch and videos in Sign Language of the Netherlands (NGT).
+        description: 
 
