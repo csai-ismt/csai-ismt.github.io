@@ -62,3 +62,15 @@
       - title: A multilingual parallel corpus for SLMT
         description: The corpus contains 297 hotel reviews in written English (21.464 words), translated into written Dutch (22.274 words) and into NGT videos (230,54 minutes). It is publicly available through the ELG and the CLARIN platforms.
 
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: #https://live.european-language-grid.eu/catalogue/corpus/21566/
+    image: # path: assets/project/
+    date: 02/2023 &ndash; 01/2024
+    title: Gold Standard Parallel Corpus of Signed and Spoken Languages 
+    summary: GoSt-ParC-Sign
+    decription: A parallel corpus of (semi-)spontaneous Flemish Sign Language (VGT) and written Dutch
+    contents:
+      - title: A parallel corpus with authentic signing for SLMT
+        description: This ongoing project will lead to the creation of a parallel corpus of semi-spontaneous VGT (source language) and written Dutch (target language). All VGT videos included were orignally produced by authentic signers for a signing audience.
