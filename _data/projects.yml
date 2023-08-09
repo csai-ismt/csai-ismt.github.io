@@ -55,10 +55,10 @@
     url: https://live.european-language-grid.eu/catalogue/corpus/21566/
     image: # path: assets/project/
     date: 01/2023 &ndash; 03/2023
-    title: NGT-Dutch Hotel Review Corpus (NGT-HoReCo)
-    summary:
+    title: NGT-Dutch Hotel Review Corpus 
+    summary: NGT-HoReCo
     decription: A parallel corpus of hotel reviews in written English, written Dutch and videos in Sign Language of the Netherlands (NGT).
     contents:
-      - title: 
-        description: 
+      - title: A multilingual parallel corpus for SLMT
+        description: The corpus contains 297 hotel reviews in written English (21.464 words), translated into written Dutch (22.274 words) and into NGT videos (230,54 minutes). It is publicly available through the ELG and the CLARIN platforms.
 
