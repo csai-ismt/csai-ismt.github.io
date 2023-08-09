@@ -20,3 +20,11 @@
     date: 04/2022
     slides: https://www.researchgate.net/publication/360105031_Selecting_Parallel_In-domain_Sentences_for_Neural_Machine_Translation_NMT_Using_Monolingual_Texts
     hub: https://youtu.be/8GDQ124iAao
+- presentation:
+    title: Two new parallel datasets of signed and spoken language
+    event: NITS 2023
+    date: 06/2023
+- presentation:
+    title: NGT-Dutch Hotel Review Corpus
+    event: META-FORUM 2023
+    date: 07/2023
