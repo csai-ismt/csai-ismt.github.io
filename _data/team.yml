@@ -77,3 +77,23 @@
       - Machine Translation
       - Quality Estimation
     bio: "Hi! I'm Javad Pourmostafa, Ph.D. candidate and lecturer at Tilburg University's CSAI department."
+
+- member :
+    name: Lisa Lepp
+    title: PhD Candidate 
+    alumni: False 
+    modal: True
+    image:
+      path: "lisa.jpg" # path: assets/project/
+      alt: "Photo Lisa"
+    date: 10/2023 &ndash; present 
+    skills:
+      - Machine Translation
+      - NLP and Deep Learning 
+      - Computational Linguistics
+      - Sing Language Linguistics
+      - Psycho-linguistics
+      - Pragmatics
+    bio: "Hi! I am Lisa Lepp, Ph.D. candidate at the Department of Cognitive Science and Artificial Intelligence (CSAI) of Tilburg University’s, where I am joining the Machine Translation Group (ISMT). My Ph.D.-project is titled: ''Human factors in Sign Language Machine Translation''.  There are three multi-disciplinarity’s involved: Linguistics, Community and Technology. With this project we try (i) to extend the current state-of-the-art in MT with the capacity to recognize and reason with articulators of the Sign Language of the Netherlands (SLN / NGT) and (ii) a co-creation approach with an open science communication with the deaf and hearing society. 
+<br />
+Before joining Tilburg University, I was student-assistant of former-professor Onno Crasborn, and I worked as a teacher of deaf refugee children. I earned my BSc in the Dutch Language and Culture, and focused my MSc on General Linguistics with as specialization Sign Linguistics. During my master’s thesis, I analyzed the influence of phonological complexity in lexical items on the language acquisition process of late first learners of Sign Language of the Netherlands (SLN/ NGT), under the supervisor of Dr. B. Sümer and Dr. R. Pfau (as second supervisor)." 
