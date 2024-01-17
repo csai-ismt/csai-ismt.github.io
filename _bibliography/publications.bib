@@ -1,91 +1,198 @@
 References
 ==========
 
-@article{jain2021generating,
-  title={Generating gender augmented data for NLP},
-  author={Jain, Nishtha and Popovic, Maja and Groves, Declan and Vanmassenhove, Eva},
-  journal={arXiv preprint arXiv:2107.05987},
-  year={2021},
-  url={https://aclanthology.org/2021.gebnlp-1.11}
+@inproceedings{jain-etal-2021-generating,
+    title = "Generating Gender Augmented Data for {NLP}",
+    author = "Jain, Nishtha  and
+      Popovi{\'c}, Maja  and
+      Groves, Declan  and
+      Vanmassenhove, Eva",
+    editor = "Costa-jussa, Marta  and
+      Gonen, Hila  and
+      Hardmeier, Christian  and
+      Webster, Kellie",
+    booktitle = "Proceedings of the 3rd Workshop on Gender Bias in Natural Language Processing",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.gebnlp-1.11",
+    doi = "10.18653/v1/2021.gebnlp-1.11",
+    pages = "93--102",
+    abstract = "Gender bias is a frequent occurrence in NLP-based applications, especially pronounced in gender-inflected languages. Bias can appear through associations of certain adjectives and animate nouns with the natural gender of referents, but also due to unbalanced grammatical gender frequencies of inflected words. This type of bias becomes more evident in generating conversational utterances where gender is not specified within the sentence, because most current NLP applications still work on a sentence-level context. As a step towards more inclusive NLP, this paper proposes an automatic and generalisable re-writing approach for short conversational sentences. The rewriting method can be applied to sentences that, without extra-sentential context, have multiple equivalent alternatives in terms of gender. The method can be applied both for creating gender balanced outputs as well as for creating gender balanced training data. The proposed approach is based on a neural machine translation system trained to {`}translate{'} from one gender alternative to another. Both the automatic and manual analysis of the approach show promising results with respect to the automatic generation of gender alternatives for conversational sentences in Spanish.",
 }
 
-@article{vanmassenhove2021gender,
-  title={gENder-IT: An annotated English-Italian parallel challenge set for cross-linguistic natural gender phenomena},
-  author={Vanmassenhove, Eva and Monti, Johanna},
-  journal={arXiv preprint arXiv:2108.02854},
-  year={2021},
-  url={https://aclanthology.org/2021.gebnlp-1.1}
+@inproceedings{vanmassenhove-monti-2021-gender,
+    title = "g{EN}der-{IT}: An Annotated {E}nglish-{I}talian Parallel Challenge Set for Cross-Linguistic Natural Gender Phenomena",
+    author = "Vanmassenhove, Eva  and
+      Monti, Johanna",
+    editor = "Costa-jussa, Marta  and
+      Gonen, Hila  and
+      Hardmeier, Christian  and
+      Webster, Kellie",
+    booktitle = "Proceedings of the 3rd Workshop on Gender Bias in Natural Language Processing",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.gebnlp-1.1",
+    doi = "10.18653/v1/2021.gebnlp-1.1",
+    pages = "1--7",
+    abstract = "Languages differ in terms of the absence or presence of gender features, the number of gender classes and whether and where gender features are explicitly marked. These cross-linguistic differences can lead to ambiguities that are difficult to resolve, especially for sentence-level MT systems. The identification of ambiguity and its subsequent resolution is a challenging task for which currently there aren{'}t any specific resources or challenge sets available. In this paper, we introduce gENder-IT, an English{--}Italian challenge set focusing on the resolution of natural gender phenomena by providing word-level gender tags on the English source side and multiple gender alternative translations, where needed, on the Italian target side.",
 }
 
-@article{vanmassenhove2021neutral,
-  title={NeuTral Rewriter: A Rule-Based and Neural Approach to Automatic Rewriting into Gender-Neutral Alternatives},
-  author={Vanmassenhove, Eva and Emmery, Chris and Shterionov, Dimitar},
-  journal={arXiv preprint arXiv:2109.06105},
-  year={2021},
-  url={https://aclanthology.org/2021.emnlp-main.704}
+@inproceedings{vanmassenhove-etal-2021-neutral,
+    title = "{N}eu{T}ral {R}ewriter: {A} Rule-Based and Neural Approach to Automatic Rewriting into Gender Neutral Alternatives",
+    author = "Vanmassenhove, Eva  and
+      Emmery, Chris  and
+      Shterionov, Dimitar",
+    editor = "Moens, Marie-Francine  and
+      Huang, Xuanjing  and
+      Specia, Lucia  and
+      Yih, Scott Wen-tau",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.704",
+    doi = "10.18653/v1/2021.emnlp-main.704",
+    pages = "8940--8948",
+    abstract = "Recent years have seen an increasing need for gender-neutral and inclusive language. Within the field of NLP, there are various mono- and bilingual use cases where gender inclusive language is appropriate, if not preferred due to ambiguity or uncertainty in terms of the gender of referents. In this work, we present a rule-based and a neural approach to gender-neutral rewriting for English along with manually curated synthetic data (WinoBias+) and natural data (OpenSubtitles and Reddit) benchmarks. A detailed manual and automatic evaluation highlights how our NeuTral Rewriter, trained on data generated by the rule-based approach, obtains word error rates (WER) below 0.18{\%} on synthetic, in-domain and out-domain test sets.",
 }
 
 @article{sharami2021selecting,
-  title={Selecting Parallel In-domain Sentences for Neural Machine Translation Using Monolingual Texts},
-  author={Sharami, Javad Pourmostafa Roshan and Shterionov, Dimitar and Spronck, Pieter},
-  journal={arXiv preprint arXiv:2112.06096},
-  year={2021},
+  title = "Selecting Parallel In-domain Sentences for Neural Machine Translation Using Monolingual Texts",
+  abstract = "Continuously-growing data volumes lead to larger generic models. Specific use-cases are usually left out, since generic models tend to perform poorly in domain-specific cases. Our work addresses this gap with a method for selecting in-domain data from generic-domain (parallel text) corpora, for the task of machine translation. The proposed method ranks sentences in parallel general-domain data according to their cosine similarity with a monolingual domain-specific data set. We then select the top K sentences with the highest similarity score to train a new machine translation system tuned to the specific in-domain data. Our experimental results show that models trained on this in-domain data outperform models trained on generic or a mixture of generic and domain data. That is, our method selects high-quality domain-specific training instances at low computational cost and data size.",
+  keywords = "Machine Translation, Data Selection, In-domain Translation",
+  author = "{Pourmostafa Roshan Sharami}, Javad and Dimitar Shterionov and Pieter Spronck",
+  year = "2021",
+  month = dec,
+  doi = "10.26116/5eav-qz46",
+  language = "English",
+  volume = "11",
+  pages = "213--230",
+  journal = "Computational Linguistics in the Netherlands Journal",
+  issn = "2211-4009",
   url={https://arxiv.org/abs/2112.06096}
 }
 
-@article{de2021defining,
-  title={Defining meaningful units. Challenges in sign segmentation and segment-meaning mapping},
-  author={De Sisto, Mirella and Shterionov, Dimitar and Murtagh, Irene and Vermeerbergen, Myriam and Leeson, Lorraine},
-  journal={https://aclanthology. org/volumes/2021. mtsummit-at4ssl/},
-  pages={98--103},
-  year={2021},
-  url={https://aclanthology.org/2021.mtsummit-at4ssl.11}
+@inproceedings{de-sisto-etal-2021-defining,
+    title = "Defining meaningful units. Challenges in sign segmentation and segment-meaning mapping (short paper)",
+    author = "De Sisto, Mirella  and
+      Shterionov, Dimitar  and
+      Murtagh, Irene  and
+      Vermeerbergen, Myriam  and
+      Leeson, Lorraine",
+    editor = "Shterionov, Dimitar",
+    booktitle = "Proceedings of the 1st International Workshop on Automatic Translation for Signed and Spoken Languages (AT4SSL)",
+    month = aug,
+    year = "2021",
+    address = "Virtual",
+    publisher = "Association for Machine Translation in the Americas",
+    url = "https://aclanthology.org/2021.mtsummit-at4ssl.11",
+    pages = "98--103",
+    abstract = "This paper addresses the tasks of sign segmentation and segment-meaning mapping in the context of sign language (SL) recognition. It aims to give an overview of the linguistic properties of SL, such as coarticulation and simultaneity, which make these tasks complex. A better understanding of SL structure is the necessary ground for the design and development of SL recognition and segmentation methodologies, which are fundamental for machine translation of these languages. Based on this preliminary exploration, a proposal for mapping segments to meaning in the form of an agglomerate of lexical and non-lexical information is introduced.",
 }
 
-@inproceedings{shterionov2021early,
-  title={Early-stage development of the SignON application and open framework--challenges and opportunities},
-  author={Shterionov, Dimitar and O’Flaherty, John J and Keane, Edward and O’Reilly, Connor and Scipioni, Marcello Paolo and Giovanelli, Marco and Villa, Matteo},
-  booktitle={Proceedings of Machine Translation Summit XVIII: Users and Providers Track},
-  pages={277--290},
-  year={2021},
-  url={https://aclanthology.org/2021.mtsummit-up.20}
+@inproceedings{shterionov-2021-early,
+    title = "Early-stage development of the {S}ign{ON} application and open framework {--} challenges and opportunities",
+    author = "Shterionov, Dimitar  and
+      J O{'}Flaherty, John  and
+      Keane, Edward  and
+      O{'}Reilly, Connor  and
+      Paolo Scipioni, Marcello  and
+      Giovanelli, Marco  and
+      Villa, Matteo",
+    editor = "Campbell, Janice  and
+      Huyck, Ben  and
+      Larocca, Stephen  and
+      Marciano, Jay  and
+      Savenkov, Konstantin  and
+      Yanishevsky, Alex",
+    booktitle = "Proceedings of Machine Translation Summit XVIII: Users and Providers Track",
+    month = aug,
+    year = "2021",
+    address = "Virtual",
+    publisher = "Association for Machine Translation in the Americas",
+    url = "https://aclanthology.org/2021.mtsummit-up.20",
+    pages = "277--290",
+    abstract = "SignON is an EU Horizon 2020 Research and Innovation project, that is developing a smartphone application and an open framework to facilitate translation between different European sign, spoken and text languages. The framework will incorporate state of the art sign language recognition and presentation, speech processing technologies and, in its core, multi-modal, cross-language machine translation. The framework, dedicated to the computationally heavy tasks and distributed on the cloud powers the application {--} a lightweight app running on a standard mobile device. The application and framework are being researched, designed and developed through a co-creation user-centric approach with the European deaf and hard of hearing communities. In this session, the speakers will detail their progress, challenges and lessons learned in the early-stage development of the application and framework. They will also present their Agile DevOps approach and the next steps in the evolution of the SignON project.",
 }
 
 @article{delarosa2021,
-  title={ Transformers analyzing poetry. {M}ultilingual metrical pattern prediction with transformer-based language models},
-  author={{De la Rosa}, Javier and Álvaro Pérez and Mirella {De Sisto} and Laura Hernández and Aitor Diaz and Salvador Ros and Elena González Blanco},
-  year={2021},
-  journal={Neural Computing and Applications},
-  publisher={Springer: London},
+  title = "Transformers analyzing poetry. Multilingual metrical pattern prediction with transfomer-based language models",
+  abstract = "The splitting of words into stressed and unstressed syllables is the foundation for the scansion of poetry, a process that aims at determining the metrical pattern of a line of verse within a poem. Intricate language rules and their exceptions, as well as poetic licenses exerted by the authors, make calculating these patterns a nontrivial task. Some rhetorical devices shrink the metrical length, while others might extend it. This opens the door for interpretation and further complicates the creation of automated scansion algorithms useful for automatically analyzing corpora on a distant reading fashion. In this paper, we compare the automated metrical pattern identification systems available for Spanish, English, and German, against fine-tuned monolingual and multilingual language models trained on the same task. Despite being initially conceived as models suitable for semantic tasks, our results suggest that transformers-based models retain enough structural information to perform reasonably well for Spanish on a monolingual setting, and outperforms both for English and German when using a model trained on the three languages, showing evidence of the benefits of cross-lingual transfer between the languages.",
+  keywords = "Digital humanities, Language models, METER, Natural language processing, Poetry, SCANSION",
+  author = "{De la Rosa}, Javier and {\'A}lvaro P{\'e}rez and {De Sisto}, Mirella and {Hern{\'a}ndez Lorenzo}, Laura and Aitor Diaz and Salvador Ros and Elena Gonz{\'a}lez-Blanco",
+  note = "Funding Information: See http://postdata.linhd.uned.es/ . Starting Grant research project Poetry Standardization and Linked Open Data: POSTDATA (ERC-2015-STG-679528) funded by the European Research Council (https://erc.europa.eu) (ERC) under the research and innovation program Horizon2020 of the European Union. Funding Information: This research was supported by the project Poetry Standardization and Linked Open Data (POSTDATA) (ERC-2015-STG-679528) obtained by Elena Gonz{\'a}lez-Blanco and funded by an European Research Council ( https://erc.europa.eu ) Starting Grant under the Horizon2020 Program of the European Union. Publisher Copyright: {\textcopyright} 2021, The Author(s).",
+  year = "2021",
+  month = nov,
+  day = "15",
+  doi = "10.1007/s00521-021-06692-2",
+  language = "English",
+  journal = "Neural Computing and Applications",
+  issn = "0941-0643",
+  publisher = "Springer London",
   url={https://link.springer.com/article/10.1007/s00521-021-06692-2}
 }
 
-@inproceedings{hernandez2021,
-  title={The automatic quantitative metrical analysis of {Spanish Poetry with Rantanplan}: a first approach},
-  author={Hernández-Lorenzo, Laura and De Sisto, Mirella and Álvaro Pérez and Javier {De la Rosa} and Salvador Ros and Elena González-Blanco},
-  year={2021},
+
+@article{e380b57b01f349898f004e2a7178ae05,
+  title = "Automatic quantitative metrical analysis of Spanish Poetry with Rantanplan: a first approach",
+  abstract = "In this paper, we present a quantitative approach to Spanish poetry and versification through the application of our own automatic metrical tool, Rantanplan, to the complete poetic works of four Early Modern Spanish poets. The entire poetry by four representative authors of the period —Garcilaso de la Vega (1503-1536), Fernando de Herrera (1534-1597), Luis de G{\'o}ngora (1561-1627), and Lope de Vega (1562-1635)—was automatically processed and stress positions were extracted. Thanks to the development of a new feature in Rantanplan for stanza identification, we could detect metrical structures as well. A quantitative analysis of stress positions, line lengths and stanzas used per author follows, aiming at modeling their complete metrical profile. Additionally, we present an application of the obtained metrical information for authorship attribution.",
+  author = "{Hern{\'a}ndez Lorenzo}, Laura and {De Sisto}, Mirella and {\'A}lvaro P{\'e}rez and {De la Rosa}, Javier and Salvador Ros and Elena Gonz{\'a}lez-Blanco",
+  year = "2021",
+  doi = "10.51305/ICL.CZ.9788076580336.03",
+  language = "English",
+  journal = "Tackling the Toolkit. Plotting Poetry through Computational Literary Studies.",
   editor={P. Plecháç and R. Kolár and A. Bories and J. Ríha},
-  booktitle={Tackling the {Toolkit: Plotting Poetry through Computational Literary Studies}},
-  pages={31--42},
-  place={Prague: ICL CAS},
   url={https://www.plottingpoetry.org/books/tackling_toolkit/pdf/03_hernandez.pdf}
 }
 
 @inproceedings{sharami2022quality,
-  title={Quality Estimation for the Translation Industry--Data Challenges},
-  author={Sharami, Javad Pourmostafa Roshan and Murgolo, Elena and Shterionov, Dimitar},
-  booktitle={The 32nd Meeting of Computational Linguistics in The Netherlands},
-  year={2022},
+  title = "Quality Estimation for the Translation Industry – Data Challenges",
+  abstract = "Machine Translation (MT) has become an irreplaceable part of translation industry workflows. With a direct impact on productivity, it is very important for human post-editors and project managers to be informed about the translation quality of MT.MT Quality estimation (QE) is the task of predicting the quality of a translation without human references. For the translation industry QE can be used as an indicator of the amount of post-editing needed as well as of productivity. QE can be applied at word-, sentence- or document-level. In the cases of sentence- and document-level QE, given a source text and its MT counterpart the task is to predict a score (typically TER) that indicates the translation quality. As with most NLP tasks nowadays, state-of-the-art QE has been achieved using DL methods. Optimal QE performance is not only a question of model architecture and hyperparameters but it strongly depends on the quantity and quality of the data.In a business environment, such as the one of the translation industry models or system that are used in production should adhere to economic and usability criteria. QE for the translation industry should be optimised for domain- and use-case specific data, should be efficient and be adaptable. In a collaborative project between Orbital14 and Tilburg University, funded by Aglatech14, we develop a framework for MT quality assessment (MTQA) which strongly relies on QE. In this project we focus on a specific domain (patents, IP) and a language pair (English-Italian).In this work we present our approach to data collection, analysis and preprocessing prior to building QE models. We started with proprietary data provided by Aglatech14 to identify specific patterns that need to be covered by the QE tool. As the volume of initial data was not sufficient to build robust DL models (42K source-translation-post-edit triplets, from which we compute the TER scores) we added a corpus of 127K source-human translation sentences. We used Aglatech14{\textquoteright}s translation model to translate the source and generate a pseudo corpus of triplets (source-MT-post-edit), which were then used to compute TER scores. To further extend our data set we used publicly available data – a generic English- Italian corpus containing ~105M sentence pairs. Aiming at a domain-specific QE, we select only similar to the industry data sentence pairs. We used a ranking data selection method based on cosine similarity to selected additional 42K sentences – those with the highest similarity score to the Aglatech14 data. After data selection, wetranslated the selected source data to create new synthetic data comprising of source, machine translation and target sentences. We consider the target sentences as post-edited sentences. As in the previous case, we computed the TER score between the MT and the target to use as labels for training our QE models.We use these data to build state-of-the-art QE models and evaluate their performance against a gold standard reference set, provided by Aglatech14.",
+  keywords = "Machine Translation, Quality estimation, Quality evaluation",
+  author = "{Pourmostafa Roshan Sharami}, Javad and Elena Murgolo and Dimitar Shterionov",
+  year = "2022",
+  month = jun,
+  day = "17",
+  doi = "10.13140/RG.2.2.10803.30245",
+  language = "English",
+  booktitle = "The 32nd Meeting of Computational Linguistics in The Netherlands, CLIN",
   url={https://research.tilburguniversity.edu/en/publications/quality-estimation-for-the-translation-industry-data-challenges}
 }
 
-@inproceedings{de2022challenges,
-  title={Challenges with sign language datasets for sign language recognition and translation},
-  author={De Sisto, Mirella and Vandeghinste, Vincent and G{\'o}mez, Santiago Egea and De Coster, Mathieu and Shterionov, Dimitar and Seggion, H},
-  booktitle={LREC2022, the 13th International Conference on Language Resources and Evaluation},
-  pages={2478--2487},
-  year={2022},
-  url={https://aclanthology.org/2022.lrec-1.264}
+@inproceedings{de-sisto-etal-2022-challenges,
+    title = "Challenges with Sign Language Datasets for Sign Language Recognition and Translation",
+    author = "De Sisto, Mirella  and
+      Vandeghinste, Vincent  and
+      Egea G{\'o}mez, Santiago  and
+      De Coster, Mathieu  and
+      Shterionov, Dimitar  and
+      Saggion, Horacio",
+    editor = "Calzolari, Nicoletta  and
+      B{\'e}chet, Fr{\'e}d{\'e}ric  and
+      Blache, Philippe  and
+      Choukri, Khalid  and
+      Cieri, Christopher  and
+      Declerck, Thierry  and
+      Goggi, Sara  and
+      Isahara, Hitoshi  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Mazo, H{\'e}l{\`e}ne  and
+      Odijk, Jan  and
+      Piperidis, Stelios",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.264",
+    pages = "2478--2487",
+    abstract = "Sign Languages (SLs) are the primary means of communication for at least half a million people in Europe alone. However, the development of SL recognition and translation tools is slowed down by a series of obstacles concerning resource scarcity and standardization issues in the available data. The former challenge relates to the volume of data available for machine learning as well as the time required to collect and process new data. The latter obstacle is linked to the variety of the data, i.e., annotation formats are not unified and vary amongst different resources. The available data formats are often not suitable for machine learning, obstructing the provision of automatic tools based on neural models. In the present paper, we give an overview of these challenges by comparing various SL corpora and SL machine learning datasets. Furthermore, we propose a framework to address the lack of standardization at format level, unify the available resources and facilitate SL research for different languages. Our framework takes ELAN files as inputs and returns textual and visual data ready to train SL recognition and translation models. We present a proof of concept, training neural translation models on the data produced by the proposed framework.",
 }
 
 @misc{https://doi.org/10.48550/arxiv.2202.02170,
@@ -99,67 +206,156 @@ References
   copyright = {Creative Commons Attribution Share Alike 4.0 International}
 }
 
-@inproceedings{murgolo2022quality,
-  title={A Quality Estimation and Quality Evaluation Tool for the Translation Industry},
-  author={Murgolo, Elena and Sharami, Javad Pourmostafa Roshan and Shterionov, Dimitar},
-  booktitle={Proceedings of the 23rd Annual Conference of the European Association for Machine Translation},
-  pages={305--306},
-  year={2022},
-  url={https://aclanthology.org/2022.eamt-1.43}
+@inproceedings{murgolo-etal-2022-quality,
+    title = "A Quality Estimation and Quality Evaluation Tool for the Translation Industry",
+    author = "Murgolo, Elena  and
+      Sharami, Javad Pourmostafa Roshan  and
+      Shterionov, Dimitar",
+    editor = {Moniz, Helena  and
+      Macken, Lieve  and
+      Rufener, Andrew  and
+      Barrault, Lo{\"\i}c  and
+      Costa-juss{\`a}, Marta R.  and
+      Declercq, Christophe  and
+      Koponen, Maarit  and
+      Kemp, Ellie  and
+      Pilos, Spyridon  and
+      Forcada, Mikel L.  and
+      Scarton, Carolina  and
+      Van den Bogaert, Joachim  and
+      Daems, Joke  and
+      Tezcan, Arda  and
+      Vanroy, Bram  and
+      Fonteyne, Margot},
+    booktitle = "Proceedings of the 23rd Annual Conference of the European Association for Machine Translation",
+    month = jun,
+    year = "2022",
+    address = "Ghent, Belgium",
+    publisher = "European Association for Machine Translation",
+    url = "https://aclanthology.org/2022.eamt-1.43",
+    pages = "307--308",
+    abstract = "With the increase in machine translation (MT) quality over the latest years, it has now become a common practice to integrate MT in the workflow of language service providers (LSPs) and other actors in the translation industry. With MT having a direct impact on the translation workflow, it is important not only to use high-quality MT systems, but also to understand the quality dimension so that the humans involved in the translation workflow can make informed decisions. The evaluation and monitoring of MT output quality has become one of the essential aspects of language technology management in LSPs{'} workflows. First, a general practice is to carry out human tests to evaluate MT output quality before deployment. Second, a quality estimate of the translated text, thus after deployment, can inform post editors or even represent post-editing effort. In the former case, based on the quality assessment of a candidate engine, an informed decision can be made whether the engine would be deployed for production or not. In the latter, a quality estimate of the translation output can guide the human post-editor or even make rough approximations of the post-editing effort. Quality of an MT engine can be assessed on document- or on sentence-level. A tool to jointly provide all these functionalities does not exist yet. The overall objective of the project presented in this paper is to develop an MT quality assessment (MTQA) tool that simplifies the quality assessment of MT engines, combining quality evaluation and quality estimation on document- and sentence- level.",
 }
 
 @article{desisto2022devoicing,
-  title={Final Devoicing in Dutch Medieval and Renaissance Texts: A Preliminary Study on Orthographic Variation},
-  author={De Sisto, Mirella},
-  journal={Filologia Germanica - Germanic Philology. Germanic Philology and the Digital Paradigm: Models, Methods and Tools for Medieval Germanic Texts},
-  year={2022}
+  title = "Final Devoicing in Dutch Medieval and Renaissance Texts: A Preliminary Study on Orthographic Variation",
+  abstract = "This paper describes a preliminary quantitative study on orthographic variation of word-final devoiced consonants (e.g. altijd vs altijt {\textquoteleft}always{\textquoteright}) in Dutch medieval and Renaissance texts. Five epic works in verse, either poems or plays, have been analysed, which cover a period from 1270 until 1637. The computational identification of orthographic marking of word-final devoicing, as well as the occurrence of instances without marking, allows, for each text under examination, to chart the different phases of the devoiced consonants{\textquoteright} spelling. The results show that the earlier medieval texts under investigation exhibit spelling which overtly displays devoiced consonants; later works, those written within the Renaissance period, show more instances of orthographic variation. Besides the preliminary results of this pilot study, this paper highlights the potential of applying similar computational approaches to larger data sets of texts. ",
+  author = "{De Sisto}, Mirella",
+  year = "2022",
+  month = dec,
+  language = "English",
+  pages = "99--117",
+  journal = "Filologia Germanica - Germanic Philology",
+  issn = "2036-8992",
+  number = "14",
+  url = "https://research.tilburguniversity.edu/en/publications/final-devoicing-in-dutch-medieval-and-renaissance-texts-a-prelimi/fingerprints/",
 }
 
 @article{desisto2022cesura,
-  title={Modelli di demarcazione della metà verso nel metro rinascimentale romanzo},
-  author={De Sisto, Mirella},
-  journal={Interruzioni e cesure. {F}enomeni e pratiche della discontinuità in linguistica, letteratura e arti performative},
-  publisher={{ILLA} - {Nuove Ricerche Umanistiche}: {Pisa University Press}},
-  year={2022}
+  title = "Modelli di demarcazione della met{\`a} verso nel metro rinascimentale romanzo",
+  abstract = "The present paper discusses two types of mid-line marking attested in Romance traditions instantiations of Renaissance metre and outlines an explanation for their structural differences. On the one hand, some poetic traditions, namely, French and Catalan, preserved the caesura of the source form. On the other hand, Italian, Spanish and Portuguese poetry developed a kind of mid-line marking which is based on the obligatory prominence of a metrical position in the middle of the line. A further distinction can be made when considering that French and Catalan caesurae are not exactly the same: in French, this plays the role of the only metrical element smaller than the line; ln Catalan, instead, a prominent position line-medially is also dividing the line in two hemistiches. Catalan caesura constitutes a hybrid form between a proper caesura, in the French way, and a prominence mid-line marking system. ",
+  author = "{De Sisto}, Mirella",
+  year = "2022",
+  language = "Italian",
+  volume = "Interruzioni e cesure. Fenomeni e pratiche della discontinuit{\`a} in linguistica, letteratura e arti performative",
+  pages = "192--200",
+  journal = "ILLA - Nuove Ricerche Umanistiche",
+  publisher = "Pisa University Press",
+  url = "https://research.tilburguniversity.edu/en/publications/modelli-di-demarcazione-della-met%C3%A0-verso-nel-metro-rinascimentale",
 }
 
 @misc{boluki2023evaluating,
       title={Evaluating the Effectiveness of Pre-trained Language Models in Predicting the Helpfulness of Online Product Reviews}, 
-      author={Ali Boluki and Javad Pourmostafa Roshan Sharami and Dimitar Shterionov},
+      author={Boluki, Ali and Pourmostafa Roshan Sharami, Javad and Shterionov, Dimitar},
       year={2023},
       eprint={2302.10199},
       archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      primaryClass={cs.CL},
+      abstract = "Businesses and customers can gain valuable information from product reviews. The sheer number of reviews often necessitates ranking them based on their potential helpfulness. However, only a few reviews ever receive any helpfulness votes on online marketplaces. Sorting all reviews based on the few existing votes can cause helpful reviews to go unnoticed because of the limited attention span of readers. The problem of review helpfulness prediction is even more important for higher review volumes, and newly written reviews or launched products. In this work we compare the use of RoBERTa and XLM-R language models to predict the helpfulness of online product reviews. The contributions of our work in relation to literature include extensively investigating the efficacy of state-of-the-art language models -- both monolingual and multilingual -- against a robust baseline, taking ranking metrics into account when assessing these approaches, and assessing multilingual models for the first time. We employ the Amazon review dataset for our experiments. According to our study on several product categories, multilingual and monolingual pre-trained language models outperform the baseline that utilizes random forest with handcrafted features as much as 23\% in RMSE. Pre-trained language models reduce the need for complex text feature engineering. However, our results suggest that pre-trained multilingual models may not be used for fine-tuning only one language. We assess the performance of language models with and without additional features. Our results show that including additional features like product rating by the reviewer can further help the predictive methods.",
+      url = "https://arxiv.org/abs/2302.10199",
 }
 
-@misc{sharami2023tailoring,
-      title={Tailoring Domain Adaptation for Machine Translation Quality Estimation}, 
-      author={Javad Pourmostafa Roshan Sharami and Dimitar Shterionov and Frédéric Blain and Eva Vanmassenhove and Mirella {De Sisto} and Chris Emmery and Pieter Spronck},
-      year={2023},
-      eprint={2304.08891},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{sharami-etal-2023-tailoring,
+    title = "Tailoring Domain Adaptation for Machine Translation Quality Estimation",
+    author = "Sharami, Javad Pourmostafa Roshan  and
+      Shterionov, Dimitar  and
+      Blain, Fr{\'e}d{\'e}ric  and
+      Vanmassenhove, Eva  and
+      Sisto, Mirella De  and
+      Emmery, Chris  and
+      Spronck, Pieter",
+    editor = "Nurminen, Mary  and
+      Brenner, Judith  and
+      Koponen, Maarit  and
+      Latomaa, Sirkku  and
+      Mikhailov, Mikhail  and
+      Schierl, Frederike  and
+      Ranasinghe, Tharindu  and
+      Vanmassenhove, Eva  and
+      Vidal, Sergi Alvarez  and
+      Aranberri, Nora  and
+      Nunziatini, Mara  and
+      Escart{\'\i}n, Carla Parra  and
+      Forcada, Mikel  and
+      Popovic, Maja  and
+      Scarton, Carolina  and
+      Moniz, Helena",
+    booktitle = "Proceedings of the 24th Annual Conference of the European Association for Machine Translation",
+    month = jun,
+    year = "2023",
+    address = "Tampere, Finland",
+    publisher = "European Association for Machine Translation",
+    url = "https://aclanthology.org/2023.eamt-1.2",
+    pages = "9--20",
+    abstract = "While quality estimation (QE) can play an important role in the translation process, its effectiveness relies on the availability and quality of training data. For QE in particular, high-quality labeled data is often lacking due to the high-cost and effort associated with labeling such data. Aside from the data scarcity challenge, QE models should also be generalizabile, i.e., they should be able to handle data from different domains, both generic and specific. To alleviate these two main issues {---} data scarcity and domain mismatch {---} this paper combines domain adaptation and data augmentation within a robust QE system. Our method is to first train a generic QE model and then fine-tune it on a specific domain while retaining generic knowledge. Our results show a significant improvement for all the language pairs investigated, better cross-lingual inference, and a superior performance in zero-shot learning scenarios as compared to state-of-the-art baselines.",
 }
 
-@inproceedings{desisto2023ngthoreco,
-      title = {A New English-Dutch-NGT Corpus for the Hospitality Domain},
-      author = {De Sisto, Mirella and Vincent Vandeghinste and Dimitar Shterionov},
-      year = {2023},
-      booktitle = {Proceedings of the Second International Workshop on Automatic Translation for Signed and Spoken Languages}
+@inproceedings{sisto-etal-2023-new,
+    title = "A New {E}nglish-{D}utch-{NGT} Corpus for the Hospitality Domain",
+    author = "Sisto, Mirella De  and
+      Vandeghinste, Vincent  and
+      Shterionov, Dimitar",
+    editor = "Shterionov, Dimitar  and
+      Sisto, Mirella De  and
+      Muller, Mathias  and
+      Landuyt, Davy Van  and
+      Omardeen, Rehana  and
+      Oboyle, Shaun  and
+      Braffort, Annelies  and
+      Roelofsen, Floris  and
+      Blain, Fred  and
+      Vanroy, Bram  and
+      Avramidis, Eleftherios",
+    booktitle = "Proceedings of the Second International Workshop on Automatic Translation for Signed and Spoken Languages",
+    month = jun,
+    year = "2023",
+    address = "Tampere, Finland",
+    publisher = "European Association for Machine Translation",
+    url = "https://aclanthology.org/2023.at4ssl-1.4",
+    pages = "34--37",
+    abstract = "One of the major challenges hampering the development of language technology which targets sign languages is the extremely limited availability of good quality data geared towards machine learning and deep learning approaches. In this paper we introduce the NGT-Dutch Hotel Review Corpus (NGT-HoReCo), which addresses this issue by providing multimodal parallel data in English, Dutch and Sign Language of the Netherlands (NGT). The corpus contains 283 hotel reviews in written English, translated into written Dutch and into NGT videos. It will be made publicly available through CLARIN and through the ELG platform.",
 }
 
 @inproceedings{SignON_EAMT2023,
       title = {SignON: Sign Language Translation. Progress and challenges}, 
       author = {Vincent Vandeghinste and Dimitar Shterionov and Mirella {De Sisto} and Aoife Brady and Mathieu {De Coster} and Lorraine Leeson and Josep Blat and Frankie Picron and Marcello Paolo Scipioni and Aditya Parikh and Louis ten Bosch and John O’Flaherty and Joni Dambre and Jorn Rijckaert and Bram Vanroy and Victor Ubieto Nogales and Santiago Egea Gomez and Ineke Schuurman and Gorka Labaka and Adrian Nunez-Marcos and Irene Murtagh and Euan McGill and Horacio Saggion},
       year = {2023},
-      booktitle = {Proceedings of the 24th Annual Conference of the European Association for Machine Translation}
+      booktitle = {Proceedings of the 24th Annual Conference of the European Association for Machine Translation},
+      url = "https://aclanthology.org/2023.eamt-1.53.pdf",
 }
 
 @inproceedings{desisto2023gostparcsign,
-      title = {GoSt-ParC-Sign: Gold Standard Parallel Corpus of Sign and spoken language},
-      author = {De Sisto, Mirella and Vincent Vandeghinste and Lien Soetemans and Caro Brosens and Dimitar Shterionov},
-      year = {2023},
-      booktitle = {Proceedings of the 24th Annual Conference of the European Association for Machine Translation}
+  title = "GoSt-ParC-Sign: Gold Standard Parallel Corpus of Sign and spoken language",
+  keywords = "Spoken Languages(SpLs), Sign Languages(SLs)",
+  author = "{De Sisto}, Mirella and Vincent Vandeghinste and Lien Soetemans and Caro Brosens and Dimitar Shterionov",
+  year = "2023",
+  language = "English",
+  isbn = "978-952-03-2947-1",
+  pages = "503--504",
+  booktitle = "Proceedings of the 24th Annual Conference of the European Association for Machine Translation",
+  publisher = "European Association for Machine Translation",
+  note = "The 24th Annual Conference of the European Association for Machine Translation, EAMT 2023 ; Conference date: 12-06-2023 Through 15-06-2023",
+  url = "https://pure.uvt.nl/ws/portalfiles/portal/76510421/Gold_Standard_Parallel_Corpus_of_Sign_and_spoken_language.pdf",
 }
 
 @misc{vandeghinste2023whitepaper,
@@ -190,7 +386,6 @@ References
     pages = "310--320",
     abstract = "Authorship attribution aims to identify the author of an anonymous text. The task becomes even more worthwhile when it comes to literary works. For example, pen names were commonly used by female authors in the 19th century resulting in some literary works being incorrectly attributed or claimed. With this motivation, we collated a dataset of late 19th century novels in English. Due to the imbalance in the dataset and the unavailability of enough data per author, we employed the GANBERT model along with data sampling strategies to fine-tune a transformer-based model for authorship attribution. Differently from the earlier studies on the GAN-BERT model, we conducted transfer learning on comparatively smaller author subsets to train more focused author-specific models yielding performance over 0.88 accuracy and F1 scores. Furthermore, we observed that increasing the sample size has a negative impact on the model{'}s performance. Our research mainly contributes to the ongoing authorship attribution research using GAN-BERT architecture, especially in attributing disputed novelists in the late 19th century.",
 }
-
 
 @article{8c9846437fb44bd6ada37326d26cb137,
 title = "Text Data Augmentation Using Generative Adversarial Networks – A Systematic Review",
@@ -267,5 +462,4 @@ journal = "Journal of Computational and Applied Linguistics",
     pages = "629--653",
     abstract = "We report the results of the WMT 2023 shared task on Quality Estimation, in which the challenge is to predict the quality of the output of neural machine translation systems at the word and sentence levels, without access to reference translations. This edition introduces a few novel aspects and extensions that aim to enable more fine-grained, and explainable quality estimation approaches. We introduce an updated quality annotation scheme using Multidimensional Quality Metrics to obtain sentence- and word-level quality scores for three language pairs. We also extend the provided data to new language pairs: we specifically target low-resource languages and provide training, development and test data for English-Hindi, English-Tamil, English-Telegu and English-Gujarati as well as a zero-shot test-set for English-Farsi. Further, we introduce a novel fine-grained error prediction task aspiring to motivate research towards more detailed quality predictions.",
 }
-
 
