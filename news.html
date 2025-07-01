@@ -6,7 +6,8 @@ paginate: 5
 ---
 
 <div id="news">
-  <section id="header-content"><h1>{{ page.title }}</h1></section>
+  <section class="bg"></section>
+  <h1 class="title">{{ page.title }}</h1>
 
   {% assign news_posts = site.posts | where: "category", "news" %}
   {% for post in news_posts %}
