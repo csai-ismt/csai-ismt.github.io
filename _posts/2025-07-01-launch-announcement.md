@@ -1,10 +1,11 @@
 ---
 layout: news
-title: "Launch of New Research Project"
-date: 2025-07-01
+title: "NITS"
+date: 2025-06-30
 author: "Admin"
-excerpt: "We are excited to announce the launch of our new research project focused on..."
+tags: [award, research]
+excerpt: "We are thrilled to announce..."
+image: /assets/img/news-award.jpg
+subtitle: "Key research funded to advance..."
 ---
-## Headline
-
-Full news content…
+Full news content here...
