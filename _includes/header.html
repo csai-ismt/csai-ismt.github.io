@@ -5,12 +5,18 @@
     <nav>
       <ul>
         {% case current[0] %}
+
         <!-- home -->
         {% when none %}
         <li class="current">Home</li>
         <a href="{{ '/people' | relative_url }}">
           <li class="btn-nav">People</li>
         </a>
+        {% if site.news %}
+          <a href="{{ '/news' | relative_url }}">
+            <li class="btn-nav">News</li>
+          </a>
+        {% endif %}
         {% if site.publications %}
           <a href="{{ '/publications' | relative_url }}">
             <li class="btn-nav">Publications</li>
@@ -29,12 +35,18 @@
             <li class="btn-nav">Tags</li>
           </a>
         {% endif %}
+
         <!-- People -->
         {% when 'people' %}
         <a href="{{ '/' | relative_url }}">
-        <li class="btn-nav">Home</li>
+          <li class="btn-nav">Home</li>
         </a>
         <li class="current">People</li>
+        {% if site.news %}
+          <a href="{{ '/news' | relative_url }}">
+            <li class="btn-nav">News</li>
+          </a>
+        {% endif %}
         {% if site.publications %}
           <a href="{{ '/publications' | relative_url }}">
             <li class="btn-nav">Publications</li>
@@ -53,14 +65,20 @@
             <li class="btn-nav">Tags</li>
           </a>
         {% endif %}
+
         <!-- publications -->
         {% when 'publications' %}
-        <a href="{{ '/'' | relative_url }}">
+        <a href="{{ '/' | relative_url }}">
           <li class="btn-nav">Home</li>
         </a>
         <a href="{{ '/people' | relative_url }}">
           <li class="btn-nav">People</li>
         </a>
+        {% if site.news %}
+          <a href="{{ '/news' | relative_url }}">
+            <li class="btn-nav">News</li>
+          </a>
+        {% endif %}
         <li class="current">Publications</li>
         {% if site.presentations %}
           <a href="{{ '/presentations' | relative_url }}">
@@ -75,14 +93,20 @@
             <li class="btn-nav">Tags</li>
           </a>
         {% endif %}
+
         <!-- presentations -->
         {% when 'presentations' %}
-        <a href="{{ '/'' | relative_url }}">
+        <a href="{{ '/' | relative_url }}">
           <li class="btn-nav">Home</li>
         </a>
         <a href="{{ '/people' | relative_url }}">
           <li class="btn-nav">People</li>
         </a>
+        {% if site.news %}
+          <a href="{{ '/news' | relative_url }}">
+            <li class="btn-nav">News</li>
+          </a>
+        {% endif %}
         {% if site.publications %}
           <a href="{{ '/publications' | relative_url }}">
             <li class="btn-nav">Publications</li>
@@ -97,6 +121,7 @@
             <li class="btn-nav">Tags</li>
           </a>
         {% endif %}
+
         <!-- blog -->
         {% when 'blog' %}
         <a href="{{ '/' | relative_url }}">
@@ -105,6 +130,11 @@
         <a href="{{ '/people' | relative_url }}">
           <li class="btn-nav">People</li>
         </a>
+        {% if site.news %}
+          <a href="{{ '/news' | relative_url }}">
+            <li class="btn-nav">News</li>
+          </a>
+        {% endif %}
         {% if site.publications %}
           <a href="{{ '/publications' | relative_url }}">
             <li class="btn-nav">Publications</li>
@@ -119,6 +149,7 @@
         <a href="{{ '/tags' | relative_url }}">
           <li class="btn-nav">Tags</li>
         </a>
+
         <!-- tags -->
         {% when 'tags' %}
         <a href="{{ '/' | relative_url }}">
@@ -127,6 +158,11 @@
         <a href="{{ '/people' | relative_url }}">
           <li class="btn-nav">People</li>
         </a>
+        {% if site.news %}
+          <a href="{{ '/news' | relative_url }}">
+            <li class="btn-nav">News</li>
+          </a>
+        {% endif %}
         {% if site.publications %}
           <a href="{{ '/publications' | relative_url }}">
             <li class="btn-nav">Publications</li>
@@ -137,18 +173,52 @@
             <li class="btn-nav">Presentations</li>
           </a>
         {% endif %}
-          <a href="{{ '/blog' | relative_url }}">
-            <li class="btn-nav">Blog</li>
-          </a>
-          <li class="current">Tags</li>
-        {% else %}
-        <!-- others -->
+        <a href="{{ '/blog' | relative_url }}">
+          <li class="btn-nav">Blog</li>
+        </a>
+        <li class="current">Tags</li>
+
+        <!-- news -->
+        {% when 'news' %}
         <a href="{{ '/' | relative_url }}">
           <li class="btn-nav">Home</li>
         </a>
         <a href="{{ '/people' | relative_url }}">
           <li class="btn-nav">People</li>
         </a>
+        <li class="current">News</li>
+        {% if site.publications %}
+          <a href="{{ '/publications' | relative_url }}">
+            <li class="btn-nav">Publications</li>
+          </a>
+        {% endif %}
+        {% if site.presentations %}
+          <a href="{{ '/presentations' | relative_url }}">
+            <li class="btn-nav">Presentations</li>
+          </a>
+        {% endif %}
+        {% if site.blog %}
+          <a href="{{ '/blog' | relative_url }}">
+            <li class="btn-nav">Blog</li>
+          </a>
+          <a href="{{ '/tags' | relative_url }}">
+            <li class="btn-nav">Tags</li>
+          </a>
+        {% endif %}
+
+        <!-- others -->
+        {% else %}
+        <a href="{{ '/' | relative_url }}">
+          <li class="btn-nav">Home</li>
+        </a>
+        <a href="{{ '/people' | relative_url }}">
+          <li class="btn-nav">People</li>
+        </a>
+        {% if site.news %}
+          <a href="{{ '/news' | relative_url }}">
+            <li class="btn-nav">News</li>
+          </a>
+        {% endif %}
         {% if site.publications %}
           <a href="{{ '/publications' | relative_url }}">
             <li class="btn-nav">Publications</li>
