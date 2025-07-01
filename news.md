@@ -2,6 +2,7 @@
 layout: page
 title: News
 permalink: /news/
+paginate: 5
 ---
 
 <div id="news">
