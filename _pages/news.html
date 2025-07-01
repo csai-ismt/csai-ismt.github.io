@@ -1,0 +1,35 @@
+---
+layout: page
+title: News
+permalink: /news/
+---
+
+<div id="news">
+  <section id="header-content">
+    <h1>{{ page.title }}</h1>
+  </section>
+
+  <div class="row">
+    <section id="posts" class="col-md-12">
+      {% assign news_posts = site.posts | where: "category", "news" %}
+      {% for post in news_posts %}
+      <div class="post">
+        <a href="{{ post.url | relative_url }}">
+          <h3>{{ post.title }}</h3>
+        </a>
+        <p class="meta">
+          {{ post.date | date: "%B %-d, %Y" }}
+          {% if post.author %} • {{ post.author }}{% endif %}
+        </p>
+        {% if post.excerpt %}
+          <p>{{ post.excerpt }}</p>
+        {% endif %}
+        {% if post.image %}
+          <img src="{{ post.image }}" alt="{{ post.title }}" style="max-width:100%; height:auto;">
+        {% endif %}
+        <hr>
+      </div>
+      {% endfor %}
+    </section>
+  </div>
+</div>
