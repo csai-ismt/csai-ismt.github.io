@@ -8,34 +8,6 @@ paginate: 5
 <div id="news">
   <section id="header-content"><h1>{{ page.title }}</h1></section>
 
-  {% for post in paginator.posts %}
-    {% if post.category == "news" %}
-      <div class="post">
-        <a href="{{ post.url | relative_url }}"><h3>{{ post.title }}</h3></a>
-        <p class="meta">
-          {{ post.date | date: "%B %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}
-        </p>
-        <p>{{ post.excerpt }}</p>
-      </div>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.total_pages > 1 %}
-    <nav class="pagination">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}">← Previous</a>
-      {% endif %}
-      <span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}">Next →</a>
-      {% endif %}
-    </nav>
-  {% endif %}
-</div>
-
-<div id="news">
-  <section id="header-content"><h1>{{ page.title }}</h1></section>
-
   {% assign news_posts = site.posts | where: "category", "news" %}
   {% for post in news_posts %}
     <div class="post">
