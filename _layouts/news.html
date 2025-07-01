@@ -1,6 +1,30 @@
 ---
-layout: page
+layout: default
 title: News
 permalink: /news/
 ---
-Your news content goes here, e.g., announcements, updates, etc.
+
+<section class="news-listing">
+  <h1>{{ page.title }}</h1>
+
+  <ul class="news-list">
+    {% for post in site.posts %}
+      {% if post.layout == "post" or post.category == "news" %}
+        <li class="news-item">
+          <div class="news-header">
+            <time class="news-date">{{ post.date | date: "%B %-d, %Y" }}</time>
+            {% if post.author %}
+              • <span class="news-author">{{ post.author }}</span>
+            {% endif %}
+          </div>
+          <h2 class="news-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h2>
+          {% if post.excerpt %}
+            <p class="news-excerpt">{{ post.excerpt }}</p>
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>
