@@ -97,3 +97,20 @@
     bio: "Hi! I am Lisa Lepp, Ph.D. candidate at the Department of Cognitive Science and Artificial Intelligence (CSAI) of Tilburg University’s, where I am joining the Machine Translation Group (ISMT). My Ph.D.-project is titled: ''Human factors in Sign Language Machine Translation''.  There are three multi-disciplinarity’s involved: Linguistics, Community and Technology. With this project we try (i) to extend the current state-of-the-art in MT with the capacity to recognize and reason with articulators of the Sign Language of the Netherlands (SLN / NGT) and (ii) a co-creation approach with an open science communication with the deaf and hearing society. 
 <br />
 Before joining Tilburg University, I was student-assistant of former-professor Onno Crasborn, and I worked as a teacher of deaf refugee children. I earned my BSc in the Dutch Language and Culture, and focused my MSc on General Linguistics with as specialization Sign Linguistics. During my master’s thesis, I analyzed the influence of phonological complexity in lexical items on the language acquisition process of late first learners of Sign Language of the Netherlands (SLN/ NGT), under the supervisor of Dr. B. Sümer and Dr. R. Pfau (as second supervisor)." 
+
+- member :
+    name: Chiara Manna
+    title: PhD Candidate 
+    alumni: False 
+    modal: True
+    website: https://scholar.google.com/citations?user=k2Ot1ysAAAAJ&hl
+    image:
+      path: "chiara.jpg" # path: assets/project/
+      alt: "Photo Chiara"
+    date: 05/2024 &ndash; present 
+    skills:
+      - Machine Translation
+      - NLP 
+      - Gender Bias
+      - Interpretability and Evaluation
+    bio: "Hi! I'm Chiara, a PhD researcher at the Department of Cognitive Science and Artificial Intelligence (CSAI) at Tilburg University. My research focuses on Inclusive Machine Translation, with a particular emphasis on gender bias. By leveraging interpretability techniques, I design fine-grained evaluation frameworks with a dual aim: understanding how gender is encoded in translation systems, and guiding informed, targeted interventions toward more gender-fair and inclusive MT systems." 
