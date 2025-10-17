@@ -42,7 +42,9 @@
       alt: "Photo Mirella"
     date: 11/2022 &ndash; present 
     skills:
+      - Linguistics
       - NLP
+      - Computational Literary Studies
       - Computational Linguistics
     bio: "Hi! I’m Mirella, an Assistant Professor at Tilburg University’s Department of Cognitive Science and Artificial Intelligence and a member of the SignON project. My research focuses on Sign Language Machine Translation; in particular, I research how Neural Machine Translation (NMT) can be extended to sign languages by taking into account their linguistic properties. My background is in linguistics (phonology) and computational literary studies. In general, I like to find connections between different disciplines and topics. If you would like to collaborate (or just discuss something), feel free to get in touch with me."
 
