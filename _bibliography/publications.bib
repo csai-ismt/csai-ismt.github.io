@@ -563,6 +563,114 @@ journal = "Journal of Computational and Applied Linguistics",
     pages = "88--101",
     abstract = "The quality of output from large language models (LLMs), particularly in machine translation (MT), is closely tied to the quality of in-context examples (ICEs) provided along with the query, i.e., the text to translate. The effectiveness of these ICEs is influenced by various factors, such as the domain of the source text, the order in which the ICEs are presented, the number of these examples, and the prompt templates used. Naturally, selecting the most impactful ICEs depends on understanding how these affect the resulting translation quality, which ultimately relies on translation references or human judgment. This paper presents a novel methodology for in-context learning (ICL) that relies on a search algorithm guided by domain-specific quality estimation (QE). Leveraging the XGLM model, our methodology estimates the resulting translation quality without the need for translation references, selecting effective ICEs for MT to maximize translation quality. Our results demonstrate significant improvements over existing ICL methods and higher translation performance compared to fine-tuning a pre-trained language model (PLM), specifically mBART-50."
 }
+
+@inproceedings{freitag-etal-2024-llms,
+    title = "Are {LLM}s Breaking {MT} Metrics? Results of the {WMT}24 Metrics Shared Task",
+    author = "Freitag, Markus  and
+      Mathur, Nitika  and
+      Deutsch, Daniel  and
+      Lo, Chi-Kiu  and
+      Avramidis, Eleftherios  and
+      Rei, Ricardo  and
+      Thompson, Brian  and
+      Blain, Frederic  and
+      Kocmi, Tom  and
+      Wang, Jiayi  and
+      Adelani, David Ifeoluwa  and
+      Buchicchio, Marianna  and
+      Zerva, Chrysoula  and
+      Lavie, Alon",
+    editor = "Haddow, Barry  and
+      Kocmi, Tom  and
+      Koehn, Philipp  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Ninth Conference on Machine Translation",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.wmt-1.2/",
+    doi = "10.18653/v1/2024.wmt-1.2",
+    pages = "47--81",
+    abstract = "The WMT24 Metrics Shared Task evaluated the performance of automatic metrics for machine translation (MT), with a major focus on LLM-based translations that were generated as part of the WMT24 General MT Shared Task. As LLMs become increasingly popular in MT, it is crucial to determine whether existing evaluation metrics can accurately assess the output of these systems.To provide a robust benchmark for this evaluation, human assessments were collected using Multidimensional Quality Metrics (MQM), continuing the practice from recent years. Furthermore, building on the success of the previous year, a challenge set subtask was included, requiring participants to design contrastive test suites that specifically target a metric{'}s ability to identify and penalize different types of translation errors.Finally, the meta-evaluation procedure was refined to better reflect real-world usage of MT metrics, focusing on pairwise accuracy at both the system- and segment-levels.We present an extensive analysis on how well metrics perform on three language pairs: English to Spanish (Latin America), Japanese to Chinese, and English to German. The results strongly confirm the results reported last year, that fine-tuned neural metrics continue to perform well, even when used to evaluate LLM-based translation systems."
+}
+
+@misc{qian2024largelanguagemodelsneed,
+      title={What do Large Language Models Need for Machine Translation Evaluation?}, 
+      author={Shenbin Qian and Archchana Sindhujan and Minnie Kabra and Diptesh Kanojia and Constantin Orăsan and Tharindu Ranasinghe and Fr{\'e}d{\'e}ric Blain},
+      year={2024},
+      eprint={2410.03278},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2410.03278}, 
+      abstract={Leveraging large language models (LLMs) for various natural language processing tasks has led to superlative claims about their performance. For the evaluation of machine translation (MT), existing research shows that LLMs are able to achieve results comparable to fine-tuned multilingual pre-trained language models. In this paper, we explore what translation information, such as the source, reference, translation errors and annotation guidelines, is needed for LLMs to evaluate MT quality. In addition, we investigate prompting techniques such as zero-shot, Chain of Thought (CoT) and few-shot prompting for eight language pairs covering high-, medium- and low-resource languages, leveraging varying LLM variants. Our findings indicate the importance of reference translations for an LLM-based evaluation. While larger models do not necessarily fare better, they tend to benefit more from CoT prompting, than smaller models. We also observe that LLMs do not always provide a numerical score when generating evaluations, which poses a question on their reliability for the task. Our work presents a comprehensive analysis for resource-constrained and training-less LLM-based evaluation of machine translation. We release the accrued prompt templates, code and data publicly for reproducibility.}
+}
+
+@misc{furtado2024doredatasetportuguesedefinition,
+      title={DORE: A Dataset For Portuguese Definition Generation}, 
+      author={Anna Beatriz Dimas Furtado and Tharindu Ranasinghe and Fr{\'e}d{\'e}ric Blain and Ruslan Mitkov},
+      year={2024},
+      eprint={2403.18018},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2403.18018}, 
+      abstract={Definition modelling (DM) is the task of automatically generating a dictionary definition for a specific word. Computational systems that are capable of DM can have numerous applications benefiting a wide range of audiences. As DM is considered a supervised natural language generation problem, these systems require large annotated datasets to train the machine learning (ML) models. Several DM datasets have been released for English and other high-resource languages. While Portuguese is considered a mid/high-resource language in most natural language processing tasks and is spoken by more than 200 million native speakers, there is no DM dataset available for Portuguese. In this research, we fill this gap by introducing DORE; the first dataset for Definition MOdelling for PoRtuguEse containing more than 100,000 definitions. We also evaluate several deep learning based DM models on DORE and report the results. The dataset and the findings of this paper will facilitate research and study of Portuguese in wider contexts.}
+}
+
+@inproceedings{silva-etal-2024-forged,
+    title = "Forged-{GAN}-{BERT}: Authorship Attribution for {LLM}-Generated Forged Novels",
+    author = "Silva, Kanishka  and
+      Frommholz, Ingo  and
+      Can, Burcu  and
+      Blain, Fr{\'e}d{\'e}ric  and
+      Sarwar, Raheem  and
+      Ugolini, Laura",
+    editor = "Falk, Neele  and
+      Papi, Sara  and
+      Zhang, Mike",
+    booktitle = "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics: Student Research Workshop",
+    month = mar,
+    year = "2024",
+    address = "St. Julian{'}s, Malta",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.eacl-srw.26/",
+    doi = "10.18653/v1/2024.eacl-srw.26",
+    pages = "325--337",
+    abstract = "The advancement of generative Large Language Models (LLMs), capable of producing human-like texts, introduces challenges related to the authenticity of the text documents. This requires exploring potential forgery scenarios within the context of authorship attribution, especially in the literary domain. Particularly,two aspects of doubted authorship may arise in novels, as a novel may be imposed by a renowned author or include a copied writing style of a well-known novel. To address these concerns, we introduce Forged-GAN-BERT, a modified GANBERT-based model to improve the classification of forged novels in two data-augmentation aspects: via the Forged Novels Generator (i.e., ChatGPT) and the generator in GAN. Compared to other transformer-based models, the proposed Forged-GAN-BERT model demonstrates an improved performance with F1 scores of 0.97 and 0.71 for identifying forged novels in single-author and multi-author classification settings. Additionally, we explore different prompt categories for generating the forged novels to analyse the quality of the generated texts using different similarity distance measures, including ROUGE-1, Jaccard Similarity, Overlap Confident, and Cosine Similarity."
+}
+
+@inproceedings{zerva-etal-2024-findings,
+    title = "Findings of the Quality Estimation Shared Task at {WMT} 2024: Are {LLM}s Closing the Gap in {QE}?",
+    author = "Zerva, Chrysoula  and
+      Blain, Fr{\'e}d{\'e}ric  and
+      C. De Souza, Jos{\'e} G.  and
+      Kanojia, Diptesh  and
+      Deoghare, Sourabh  and
+      Guerreiro, Nuno M.  and
+      Attanasio, Giuseppe  and
+      Rei, Ricardo  and
+      Orasan, Constantin  and
+      Negri, Matteo  and
+      Turchi, Marco  and
+      Chatterjee, Rajen  and
+      Bhattacharyya, Pushpak  and
+      Freitag, Markus  and
+      Martins, Andr{\'e}",
+    editor = "Haddow, Barry  and
+      Kocmi, Tom  and
+      Koehn, Philipp  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Ninth Conference on Machine Translation",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.wmt-1.3/",
+    doi = "10.18653/v1/2024.wmt-1.3",
+    pages = "82--109",
+    abstract = "We report the results of the WMT 2024 shared task on Quality Estimation, in which the challenge is to predict the quality of the output of neural machine translation systems at the word and sentence levels, without access to reference translations. In this edition, we expanded our scope to assess the potential for quality estimates to help in the correction of translated outputs, hence including an automated post-editing (APE) direction. We publish new test sets with human annotations that target two directions: providing new Multidimensional Quality Metrics (MQM) annotations for three multi-domain language pairs (English to German, Spanish and Hindi) and extending the annotations on Indic languages providing direct assessments and post edits for translation from English into Hindi, Gujarati, Tamil and Telugu. We also perform a detailed analysis of the behaviour of different models with respect to different phenomena including gender bias, idiomatic language, and numerical and entity perturbations. We received submissions based both on traditional, encoder-based approaches as well as large language model (LLM) based ones."
+}
+
 @article{Nagy_Šeļa_De Sisto_Plecháč_2025, 
     title={Metronome: tracing variation in poetic meters via local sequence alignment}, 
     volume={1}, DOI={10.1017/chr.2025.1}, 
@@ -572,6 +680,7 @@ journal = "Journal of Computational and Applied Linguistics",
     pages={e1},
     doi = {https://doi.org/10.1017/chr.2025.1}
 }
+
 @article(de-sisto-etal-2025-antepenultimate-rhyme,
     title = {Antepenultimate rhyme in Spanish and Greek as a window to metrically weak positions},
     author = {De Sisto, Mirella and Martinez-Paricio, Violeta and Topintzi, Nina},
