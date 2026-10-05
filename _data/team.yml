@@ -55,7 +55,7 @@
     modal: True
     website: https://scholar.google.co.uk/citations?user=sgBANaQAAAAJ 
     image:
-      path: "fred.jpg" # path: assets/project/
+      path: "fred.png" # path: assets/project/
       alt: "Photo Fred"
     date: 12/2022 &ndash; present 
     skills:
